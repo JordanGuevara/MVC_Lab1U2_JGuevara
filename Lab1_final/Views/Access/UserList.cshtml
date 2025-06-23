@@ -1,0 +1,26 @@
+﻿@model List<Lab1_final.Models.TableViewModel.UserTableViewModel>
+
+@{
+    ViewBag.Title = "Lista de Usuarios";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Usuarios Registrados</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Usuario</th>
+            <th>Contraseña</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.User</td>
+                <td>@item.Password</td>
+            </tr>
+        }
+    </tbody>
+</table>

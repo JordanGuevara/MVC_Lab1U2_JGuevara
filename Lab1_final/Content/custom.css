@@ -1,0 +1,19 @@
+﻿body {
+    background-color: #f4f6f9;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+h2 {
+    color: #2c3e50;
+}
+
+.card {
+    border-radius: 10px;
+    border: 1px solid #dee2e6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
